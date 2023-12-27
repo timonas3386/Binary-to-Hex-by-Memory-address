@@ -17,4 +17,4 @@ with open(binary_file_path, 'rb') as file:
             csv_writer.writerow([decimal_value, hex_value])
             print('Running...[{:.2%}]'.format(i/(len(binary_data))),end = "\r")
 
-print(f"數據已保存至 '{output_csv_path}'")
+print("Success! Save the output data to '{output_csv_path}'")
